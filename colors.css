@@ -1,5 +1,8 @@
 body {
-    background: rgb(99, 39, 120)
+    
+    background-image: url("fondo_estadio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form-control:focus {

@@ -1,55 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-US">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="colors.css">
-
-</head>
-<body>
-    <div class="container rounded bg-warning mt-5 mb-5">
-        <div class="row">
-            <div class="col-md-3 border-right">
-                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">Oscar Zapana</span><span class="text-black-50">dzapanaparillo@gmail.com</span><span> </span></div>
-            </div>
-            <div class="col-md-5 border-right">
-                <div class="p-3 py-5">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h4 class="text-right">Configuracion del perfil</h4>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="col-md-6"><label class="labels">Nombre</label><input type="text" class="form-control" placeholder="Nombres" value=""></div>
-                        <div class="col-md-6"><label class="labels">Apellido</label><input type="text" class="form-control" value="" placeholder="Apellidos"></div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-12"><label class="labels">Numero de celular</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
-                        <div class="col-md-12"><label class="labels">Email ID</label><input type="text" class="form-control" placeholder="Direccion email" value=""></div>
-                        <div class="col-md-12"><label class="labels">Estado</label><input type="text" class="form-control" placeholder="Estado" value=""></div>
-                        <div class="col-md-12"><label class="labels">Area</label><input type="text" class="form-control" placeholder="Area" value=""></div>
-                        <div class="col-md-12"><label class="labels">Habilidad</label><input type="text" class="form-control" placeholder="Habilidad" value=""></div>
-                        <div class="col-md-12"><label class="labels">Educacion</label><input type="text" class="form-control" placeholder="Educacion" value=""></div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-6"><label class="labels">Pais</label><input type="text" class="form-control" placeholder="Pais" value=""></div>
-                        <div class="col-md-6"><label class="labels">Provincia/Region</label><input type="text" class="form-control" value="" placeholder="Region"></div>
-                    </div>
-                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Guardar perfil</button></div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="p-3 py-5">
-                    <div class="d-flex justify-content-between align-items-center experience"><span>Editar experiencia</span><span class="border px-3 p-1 add-experience"><i class="fa fa-plus"></i>&nbsp;Experiencia</span></div><br>
-                    <div class="col-md-12"><label class="labels">Experiencia</label><input type="text" class="form-control" placeholder="Experiencia" value=""></div> <br>
-                    <div class="col-md-12"><label class="labels">Detalles extras</label><input type="text" class="form-control" placeholder="Detalles" value=""></div>
-                </div>
-            </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Portfolio Template Demo - Material Design Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+  </head>
+  <body id="top">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"><a href="contact.html" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp"><i class="material-icons">mail</i></a>
+      <header class="mdl-layout__header mdl-layout__header--waterfall site-header">
+        <div class="mdl-layout__header-row site-logo-row"><span class="mdl-layout__title">
+            <div class="site-logo"></div><span class="site-description">Perfil de Oscar Daniel Zapana Parillo</span></span></div>
+        <div class="mdl-layout__header-row site-navigation-row mdl-layout--large-screen-only">
+          <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a class="mdl-navigation__link" href="index.html">Perfil</a><a class="mdl-navigation__link" href="portfolio.html">Trabajos</a>
+          </nav>
         </div>
+      </header>
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a class="mdl-navigation__link" href="index.html">Perfil</a><a class="mdl-navigation__link" href="portfolio.html">Trabajos</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="site-content">
+          <div class="container"><div class="mdl-grid site-max-width">
+    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp welcome-card portfolio-card">
+        <div class="mdl-card__title">
+          
+        </div>
+        <div class="mdl-card__supporting-text">
+          Estadio de la Universidad Nacional del Altiplano
+        </div>
+        
     </div>
+</div>
+<section class="section--center mdl-grid site-max-width">
+  
+  <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone  mdl-shadow--4dp">
+    <div class="mdl-card__title">
+        <h1 class="mdl-card__title-text">NOMBRE:</h1>
     </div>
+    <div class="mdl-card__supporting-text">
+      <h4>Oscar Daniel Zapana Parillo</h4>
     </div>
-</body>
+  </div>
+</section>
+
+<section class="section--center mdl-grid site-max-width">
+  
+  <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone  mdl-shadow--4dp">
+    <div class="mdl-card__title">
+        <h1 class="mdl-card__title-text">EMAIL:</h1>
+    </div>
+    <div class="mdl-card__supporting-text">
+      <h4>dzapanaparillo@gmail.com</h4>
+    </div>
+  </div>
+</section>
+
+<section class="section--center mdl-grid site-max-width">
+  
+  <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone  mdl-shadow--4dp">
+    <div class="mdl-card__title">
+        <h1 class="mdl-card__title-text">NUMERO DE TELEFONO:</h1>
+    </div>
+    <div class="mdl-card__supporting-text">
+      <h4>948210759</h4>
+    </div>
+  </div>
+</section>
+
+<section class="section--center mdl-grid site-max-width">
+  
+  <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone  mdl-shadow--4dp">
+    <div class="mdl-card__title">
+        <h1 class="mdl-card__title-text">ESCUELA PROFESIONAL:</h1>
+    </div>
+    <div class="mdl-card__supporting-text">
+      <h4>Ingenieria de Sistemas</h4>
+    </div>
+  </div>
+</section>
+
+<section class="section--center mdl-grid site-max-width homepage-portfolio">
+    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio.html">VER TRABAJOS</a>
+</section>
+
+ 
+        <footer class="mdl-mini-footer">
+          <div class="footer-container">
+            <div class="mdl-logo">&copy; Perfil. Design: <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+            <ul class="mdl-mini-footer__link-list">
+              <li><a href="#">Privacy & Terms</a></li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+      <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+    </div>
+  </body>
 </html>
